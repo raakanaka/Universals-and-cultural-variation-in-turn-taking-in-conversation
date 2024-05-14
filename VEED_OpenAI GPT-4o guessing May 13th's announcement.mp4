@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT1M22.215S" minBufferTime="PT6.000S">
+    <BaseURL>../../../../parcel/video/</BaseURL>
+    <Period start="PT0.000S" duration="PT1M22.215S">
+        <AdaptationSet bitstreamSwitching="true">
+            <ContentComponent contentType="video"></ContentComponent>
+            <Representation id="video-71401fcf" codecs="avc1.64001F" mimeType="video/mp4" width="960" height="540" frameRate="30000/1001" startWithSAP="1" bandwidth="852000">
+                <SegmentList duration="180180" timescale="30000">
+                    <Initialization sourceURL="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=0-805"></Initialization>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=1006-527065"></SegmentURL>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=527066-893264"></SegmentURL>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=893265-1542581"></SegmentURL>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=1542582-2411228"></SegmentURL>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=2411229-2811425"></SegmentURL>
+                    <SegmentURL media="71401fcf.mp4?r=dXMtZWFzdDE%3D&amp;range=2811426-3223168"
